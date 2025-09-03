@@ -1,0 +1,14 @@
+name: UltraTrim
+version: '1.0.0'
+main: dev.aari.ultratrim.UltraTrim
+api-version: '1.21'
+
+
+commands:
+  trim:
+    usage: /trim <ore> <trim> <all/wearing>
+    permission: ultratrim.use
+
+permissions:
+  ultratrim.use:
+    default: true
